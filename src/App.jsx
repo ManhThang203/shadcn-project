@@ -1,5 +1,13 @@
+import { Flex, Text, Button } from "@radix-ui/themes";
 function App() {
-  return <h1 className="text-red-500">Hello</h1>;
+  return (
+    <div>
+      <Flex direction="column" gap="2">
+        <Text>Hello from Radix Themes :)</Text>
+        <Button>Let's go</Button>
+      </Flex>
+    </div>
+  );
 }
 
 export default App;
