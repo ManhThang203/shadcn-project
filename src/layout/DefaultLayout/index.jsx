@@ -6,7 +6,9 @@ function DefaultLayout() {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className="py-15">
+        <Outlet />
+      </div>
       <Navigation />
     </>
   );
