@@ -8,7 +8,7 @@ function Header() {
       <Button className="bg-transparent hover:bg-transparent hover:cursor-pointer text-gray-400 !px-0">
         <Menu size={30} />
       </Button>
-      <Link to="/" className="">
+      <Link to="/" className="w-8 absolute left-1/2 -translate-x-1/2 ">
         <svg
           aria-label="Threads"
           fill="var(--icon-primary)"
