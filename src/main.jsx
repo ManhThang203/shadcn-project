@@ -6,6 +6,8 @@ import { Theme } from "@radix-ui/themes";
 import { ThemeProvider as ThemeProviderContext } from "./context/ThemeProvider";
 createRoot(document.getElementById("root")).render(
   <Theme>
-    <App />
+    <ThemeProviderContext>
+      <App />
+    </ThemeProviderContext>
   </Theme>
 );
